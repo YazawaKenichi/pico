@@ -2,7 +2,7 @@
 This is a repository that is built for Keyboard on Raspberry Pi Pico with C/C++ SDK
 
 
-###build する前に...
+### build する前に...
 このままだとビルドできません！
 以下の手順を行って、有効にしてください！
 
@@ -106,6 +106,8 @@ return ret;
 - const：宣言した変数を定数にする。
 - Vendor-specific：
 - エンドポイント：末端。ノードの一番端っこ。
+USB の基本は[こ↑こ↓](http://www.kumikomi.net/archives/2007/03/22usb1.php?page=1)がめちゃくちゃわかりやすい。
+必要に応じて[こっち](https://www.wdic.org/)で用語の理解を深めるといい。
 
 
 ### 疑問点
@@ -120,5 +122,6 @@ return ret;
 ### 一言二言
 tusb_config.h をわざわざプロジェクトフォルダにコピーして来なくても良くね？
 実際それでも動いた。
-参考サイトの CMakeLists.txt をそのまま持ってきたらビルドできなかったからいくつか編集した。
+参考サイトの CMakeLists.txt をそのまま持ってきたらビルドできなかったからいくつか編集したものが当リポジトリの CMakeLists になってる。
+ビルドした uf2 を Pico に書き込んでみたけど、本当に何もしないプログラムだから何も起きなくて何が起こってるのかわからないし、何をやってるのかもわからない
 
