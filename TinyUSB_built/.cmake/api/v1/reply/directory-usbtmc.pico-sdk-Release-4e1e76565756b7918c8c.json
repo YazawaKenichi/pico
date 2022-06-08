@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "usbtmc/pico-sdk",
+		"source" : "/home/shiokaze/Documents/pi/pico/pico-sdk"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "hid_multiple_interface/pico-sdk",
+		"source" : "/home/shiokaze/Documents/pi/pico/pico-sdk"
+	}
+}
